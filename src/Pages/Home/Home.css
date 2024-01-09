@@ -1,0 +1,15 @@
+.footer-section {
+  border-bottom: 10px solid var(--secondary-color);
+  position: relative;
+}
+
+.footer-section::before {
+  content: "";
+  right: 0;
+  position: absolute;
+  bottom: 0;
+  border-width:0 0 200px 200px;
+  border-style: solid;
+  border-color: transparent var(--secondary-color) var(--secondary-color) transparent;
+
+}

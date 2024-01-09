@@ -1,0 +1,41 @@
+.nav .nav-link {
+  color: var(--p-color);
+  font-weight: 500;
+  padding: 15px 25px;
+  margin-right: 20px;
+  font-size: 18px;
+  border: none;
+}
+
+.nav-tabs .nav-link:hover {
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color) !important;
+}
+
+.nav-tabs {
+  margin-bottom: 20px;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 1px solid var(--primary-color) !important;
+  color: var(--primary-color);
+}
+
+.nav .nav-link {
+  border: none;
+}
+
+/* .image {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.image img {
+  max-width: 100%;
+} */
+
+.design {
+  /* display: flex !important; */
+  /* gap: 20px; */
+
+}

@@ -1,0 +1,79 @@
+.user>div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+
+
+.user:hover>div,
+.user:hover>div svg {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+@media(max-width:991px) {
+  .user>div {
+    display: none !important;
+    border: none;
+  }
+
+  .navbar {
+    background-image: linear-gradient(194deg, #13547a 0%, #80d0c7 100%);
+    background-position: bottom, top;
+  }
+}
+
+.nav-item>div svg {
+  font-size: 24px;
+  background-color: var(--white-color);
+
+}
+
+.nav-item .nav-link.active {
+  color: var(--primary-color);
+}
+
+.nav-item a {
+  color: var(--white-color);
+}
+
+.nav-item:hover a {
+  color: var(--primary-color);
+}
+
+.header {
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(128, 208, 199, 0.35);
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0px;
+  z-index: 1111;
+  transition: .4s;
+
+}
+
+.scroll {
+  background-color: var(--secondary-color);
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(128, 208, 199, 0.35);
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0px;
+  z-index: 1111;
+  transition: .4s;
+  font-weight: 400;
+}
+
+.header .nav-item .nav-link {
+
+  font-size: 15px;
+  font-weight: 400;
+  margin: 10px;
+}

@@ -1,0 +1,62 @@
+.carde-item {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+  padding: 40px;
+  border-radius: 23px;
+  /* height: 450px; */
+  width: 30%;
+  margin-right: 10px;
+  float: right;
+  transition: .5s;
+}
+
+.carde-item:hover {
+  transform: translateY(-20px);
+}
+
+@media (max-width:991px) {
+  .carde-item {
+    width: 48%;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width:767px) {
+  .carde-item {
+    width: 90%;
+    margin: 12px;
+  }
+}
+
+.carde-item .head-card {
+  display: flex;
+}
+
+.tab-content {
+  padding-top: 30px;
+}
+
+.head-card h5 {
+  font-weight: 700;
+  font-size: 24px;
+
+}
+
+.head-card p {
+  color: var(--p-color);
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+
+
+.carde-item .image {
+  width: 100%;
+  height: 250px;
+}
+
+.carde-item .image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+
+}

@@ -1,0 +1,122 @@
+.time-line-section {
+  position: relative;
+  padding: 100px 0;
+  margin: 80px 0;
+  clear: both;
+  background-image: url("../../assets/images/colleagues-working-cozy-office-medium-shot.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateY(100px);
+  color: var(--white-color);
+
+}
+
+.time-line-section::before {
+  content: "";
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+  z-index: -1;
+}
+
+.time-line-section .timeline-container ul {
+  padding: 0;
+  margin: 0;
+}
+
+.time-line-section .timeline-container li {
+  position: relative;
+  padding: 20px 0px 65px 145px;
+}
+
+@media (max-width:767px) {
+  .time-line-section .timeline-container li {
+    padding: 20px 0px 65px 114px;
+  }
+}
+
+.time-line-section .timeline-container li:last-child {
+  padding-bottom: 0;
+}
+
+.time-line-section .timeline-container li:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 8px;
+  left: 52px;
+  top: 0;
+  background-color: var(--secondary-color);
+}
+
+.time-line-section .timeline-container li h4 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.time-line-section .timeline-container li p {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+
+}
+
+.timeline-container .icone-holder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+}
+
+.timeline-container .icone-holder.active {
+  background-color: var(--primary-color);
+}
+
+.icone-holder::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  color: white;
+  border: 4px solid white;
+  border-radius: 50%;
+}
+
+.timeline-footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.timeline-footer p {
+  font-size: 22px;
+  margin: 0 20px 0;
+}
+
+@media screen and (max-width:767px) {
+  .timeline-footer {
+    font-size: 12px;
+  }
+
+  .timeline-footer p {
+    font-size: 18px;
+      margin: 0 8px 0;
+  }
+
+}

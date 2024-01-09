@@ -1,0 +1,39 @@
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  color: var(--white-color);
+  font-weight: 500;
+  background-color: #00B0FF;
+  /* position: relative; */
+  z-index: 1;
+}
+
+.badge-bleu,
+.badge-rouge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  color: var(--white-color);
+  font-weight: 500;
+  z-index: 1;
+
+
+
+}
+
+.badge-bleu {
+  background-color: #00B0FF;
+}
+
+.badge-rouge {
+  background-color: #F50057;
+}

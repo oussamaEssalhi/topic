@@ -1,0 +1,10 @@
+export { default as Container } from "./Container/Container";
+export { default as SectionHero } from "./SectionHero/SectionHero";
+export { default as Button } from "./Buttons/Button";
+export { default as Badge } from "./Badge/Badge";
+export { default as SectionHeader } from "./SectionHeader/SectionHeader";
+export { default as Taps } from "./Taps/Taps";
+export { default as CardeItem } from "./CardeItem/CardeItem";
+export { BadgeBleu } from "./Badge/Badge";
+export { ButtonTransparent } from "./Buttons/Button.jsx";
+export { default as Logo } from "./Logo/Logo";

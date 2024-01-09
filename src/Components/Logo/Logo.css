@@ -1,0 +1,15 @@
+.navbar-brand {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.navbar-brand span {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.navbar-brand svg {
+  font-size: 32px;
+}

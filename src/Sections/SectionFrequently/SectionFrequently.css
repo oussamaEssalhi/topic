@@ -1,0 +1,72 @@
+.section-freq {
+  padding: 100px 0;
+}
+
+.section-freq>h2 {
+  width: 50%;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 20px;
+
+}
+
+@media (max-width:991px) {
+  .section-freq>h2 {
+    font-size: 40px;
+    width: 90%;
+  }
+}
+
+.freq-text-image {
+  display: flex;
+  align-items: center;
+
+}
+
+.freq-image {
+  width: 50%;
+}
+
+.freq-image img {
+  max-width: 100%;
+}
+
+.accordion {
+  width: 60%;
+  margin: 40px;
+  padding: 0 10px;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-button {
+  border-radius: 100px !important;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 27px;
+  background-color: white;
+  text-decoration: none;
+}
+
+.accordion-body {
+  color: var(--p-color);
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+@media (max-width:992px) {
+  .freq-text-image {
+    flex-direction: column;
+  }
+
+  .freq-image {
+    width: 100%;
+  }
+
+  .accordion {
+    width: 100%;
+  }
+}

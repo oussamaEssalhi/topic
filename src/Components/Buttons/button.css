@@ -1,0 +1,29 @@
+.button-pramary {
+  color: var(--white-color);
+  background-color: var(--secondary-color);
+  transition: .4s;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 100px;
+  font-weight: 700;
+}
+
+.button-pramary:hover {
+  background-color: var(--primary-color);
+}
+
+.button-transpa {
+  color: var(--secondary-color);
+  background-color: transparent;
+  transition: .4s;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 100px;
+  font-weight: 700;
+  border: 2px solid var(--secondary-color);
+}
+
+.button-transpa:hover {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+}
