@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/topic/static/css/main.834938e2.css",
+    "main.js": "/topic/static/js/main.7f995f3c.js",
+    "static/media/colleagues-working-cozy-office-medium-shot.jpg": "/topic/static/media/colleagues-working-cozy-office-medium-shot.ede31081d8882c544d99.jpg",
+    "static/media/faq_graphic.jpg": "/topic/static/media/faq_graphic.d1d172e90baa9a8691da.jpg",
+    "static/media/businesswoman-using-tablet-analysis.jpg": "/topic/static/media/businesswoman-using-tablet-analysis.3b16468a30a69c8c4ff2.jpg",
+    "static/media/undraw_viral_tweet_gndb.png": "/topic/static/media/undraw_viral_tweet_gndb.d456f85d5f88b58f92d4.png",
+    "static/media/undraw_happy_music_g6wc.png": "/topic/static/media/undraw_happy_music_g6wc.79ae14d0628d8d6b2942.png",
+    "static/media/undraw_Educator_re_ju47.png": "/topic/static/media/undraw_Educator_re_ju47.72c62a07d13af8b429ec.png",
+    "static/media/undraw_Podcast_audience_re_4i5q.png": "/topic/static/media/undraw_Podcast_audience_re_4i5q.5bea2dad75454362cf7c.png",
+    "static/media/colleagues-working-cozy-office-medium-shot.png": "/topic/static/media/colleagues-working-cozy-office-medium-shot.99b56cd8dd31bbb1f265.png",
+    "static/media/undraw_Group_video_re_btu7.png": "/topic/static/media/undraw_Group_video_re_btu7.da2d432d3f6fcadd7f5e.png",
+    "static/media/undraw_Redesign_feedback_re_jvm0.png": "/topic/static/media/undraw_Redesign_feedback_re_jvm0.ee4e4841db531520e1c0.png",
+    "static/media/undraw_online_ad_re_ol62.png": "/topic/static/media/undraw_online_ad_re_ol62.82b39621ef23bcb9b3d9.png",
+    "static/media/undraw_Finance_re_gnv2.png": "/topic/static/media/undraw_Finance_re_gnv2.41adbc30ac73726e90b2.png",
+    "static/media/undraw_Compose_music_re_wpiw.png": "/topic/static/media/undraw_Compose_music_re_wpiw.ce2171f2e01bebd1ab29.png",
+    "static/media/undraw_Remote_design_team_re_urdx.png": "/topic/static/media/undraw_Remote_design_team_re_urdx.d2dcf37c96ffd51de121.png",
+    "static/media/undraw_Graduation_re_gthn.png": "/topic/static/media/undraw_Graduation_re_gthn.caea70e5c92877c83972.png",
+    "index.html": "/topic/index.html",
+    "main.834938e2.css.map": "/topic/static/css/main.834938e2.css.map",
+    "main.7f995f3c.js.map": "/topic/static/js/main.7f995f3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.834938e2.css",
+    "static/js/main.7f995f3c.js"
+  ]
+}
